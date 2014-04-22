@@ -53,6 +53,6 @@
 
 - (IBAction)present:(id)sender {
     BVSubViewController *controller = [[BVSubViewController alloc] initWithNibName:nil bundle:nil];
-    [self presentViewControllerWithBlurBackground:controller];
+    [self presentViewControllerWithBlurBackground:controller completion:NULL];
 }
 @end
