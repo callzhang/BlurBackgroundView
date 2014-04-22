@@ -14,3 +14,6 @@ Simple blur effects category for UIViewController
 3. Replace `-dismissBlurViewControllerWithCompletionHandler:` with   `-dismissViewControllerAnimated:YES completion:`
 
 Enjoy!
+
+
+[Lei Zhang](http://leizh.com)
