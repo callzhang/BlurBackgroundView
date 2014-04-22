@@ -30,15 +30,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UIImageView *imgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"picture.jpg"]];
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];
-    [scrollView addSubview:imgView];
-    [self.view addSubview:scrollView];
     
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 400, 80, 30)];
-    [self.view addSubview:button];
-    
-    [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 - (void)didReceiveMemoryWarning
@@ -58,9 +50,9 @@
 }
 */
 
-- (IBAction)buttonClicked:(id)sender{
+
+- (IBAction)present:(id)sender {
     BVSubViewController *controller = [[BVSubViewController alloc] initWithNibName:nil bundle:nil];
     [self presentViewControllerWithBlurBackground:controller];
 }
-
 @end

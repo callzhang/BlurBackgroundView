@@ -24,6 +24,7 @@
 		AB3ACE071904DC7F0066CF3F /* picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB3ACE061904DC7F0066CF3F /* picture.jpg */; };
 		AB3ACE0B1904DE570066CF3F /* BVSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3ACE091904DE570066CF3F /* BVSubViewController.m */; };
 		AB3ACE0C1904DE570066CF3F /* BVSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB3ACE0A1904DE570066CF3F /* BVSubViewController.xib */; };
+		ABFECBE41906F3F600DD5BDC /* BVTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABFECBE31906F3F600DD5BDC /* BVTestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		AB3ACE081904DE570066CF3F /* BVSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVSubViewController.h; sourceTree = "<group>"; };
 		AB3ACE091904DE570066CF3F /* BVSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVSubViewController.m; sourceTree = "<group>"; };
 		AB3ACE0A1904DE570066CF3F /* BVSubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BVSubViewController.xib; sourceTree = "<group>"; };
+		ABFECBE31906F3F600DD5BDC /* BVTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BVTestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				AB3ACDE11904D8860066CF3F /* BVAppDelegate.m */,
 				AB3ACE001904D8F30066CF3F /* BVTestViewController.h */,
 				AB3ACE011904D8F30066CF3F /* BVTestViewController.m */,
+				ABFECBE31906F3F600DD5BDC /* BVTestViewController.xib */,
 				AB3ACE081904DE570066CF3F /* BVSubViewController.h */,
 				AB3ACE091904DE570066CF3F /* BVSubViewController.m */,
 				AB3ACE0A1904DE570066CF3F /* BVSubViewController.xib */,
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB3ACDDC1904D8860066CF3F /* InfoPlist.strings in Resources */,
+				ABFECBE41906F3F600DD5BDC /* BVTestViewController.xib in Resources */,
 				AB3ACE0C1904DE570066CF3F /* BVSubViewController.xib in Resources */,
 				AB3ACDE41904D8860066CF3F /* Images.xcassets in Resources */,
 				AB3ACE071904DC7F0066CF3F /* picture.jpg in Resources */,
@@ -466,6 +470,7 @@
 				AB3ACDFC1904D8860066CF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB3ACDFD1904D8860066CF3F /* Build configuration list for PBXNativeTarget "BlurBackgroundViewTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				AB3ACDFF1904D8860066CF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

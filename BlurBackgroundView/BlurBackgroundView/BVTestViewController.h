@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface BVTestViewController : UIViewController
+- (IBAction)present:(id)sender;
 
 @end
